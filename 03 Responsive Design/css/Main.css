@@ -1,0 +1,93 @@
+body {
+  font: 100% Gills Sans, Tahoma, Verdana, sans-serif;
+  background-color: white;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: .9375rem;
+  padding-right: .9375rem;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto; }
+
+#navigation {
+  margin-left: -2.5rem; }
+
+#navilinks {
+  float: left;
+  display: inline-block;
+  margin-right: 2rem;
+  color: black; }
+
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+.second_row {
+  margin-top: 1rem; }
+
+.Large {
+  width: 64%; }
+
+.thumbnails {
+  display: inline-block;
+  float: left;
+  width: 15%;
+  border: 0;
+  margin-top: 1rem;
+  margin-right: .9375rem; }
+
+img {
+  display: inline-block; }
+
+.blah {
+  padding-bottom: 1rem;
+  float: left;
+  margin-bottom: 1rem;
+  margin-right: 1rem; }
+
+.paragraphs {
+  margin-bottom: 10rem; }
+
+.paragraphs p {
+  padding-left: 15rem; }
+
+.paragraphs h3 {
+  padding-left: 15rem; }
+
+@media screen and (max-width: 640px) {
+  .Large {
+    width: 100%; }
+
+  .paragraphs p {
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -15rem;
+    height: 100%; }
+
+  .paragraphs {
+    margin-bottom: 0rem; }
+
+  .paragraphs h3 {
+    margin-left: -15rem;
+    width: auto;
+    text-align: left; }
+
+  .blah {
+    width: auto; }
+
+  .none {
+    width: auto; }
+
+  #navilinks {
+    margin-right: 1em; }
+
+  .thumbnails {
+    margin: .5rem;
+    width: 19%; }
+
+  .none {
+    margin-top: 4rem; } }
+
+/*# sourceMappingURL=Main.css.map */
