@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pastene imported Italian food, Pasta Prices, Kitchen Ready Tomatoes, San Marzano Tomatoes, olive oil, and more,</title>
+	<link rel="stylesheet" type="text/css" href="css/Register.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<h3>Pastene</h3>
+</head>
+
+<body>
+
+<div class="row">
+	   <ul id="navigation">
+			<li id="navilinks">About</li>
+			<li id="navilinks">Gluten-Free</li>
+			<li id="navilinks">Contact</li>
+			<li id="navilinks"><a href="Blog.html">Blog</a></li>
+	   </ul>
+    </div>
+
+<br/>
+
+<div class="second_row">
+		<img class="Large" src="Images/bowl.jpg" alt="bowl"/>
+	</div>
+
+
+<div id="registration_box">
+	<form name="vform" method="post" onsubmit="return Validate()" >
+	<input type="text" name="fullname" placeholder="Enter Full Name" />
+	<div id="nameError" class="val_error"></div>
+	<br/>
+	<input type="email" name="email" placeholder="Enter email address"/>
+	<br/>
+	<input type="password" name="password" placeholder="Create a password"/>
+	<br/>
+	 <input type="password" name="verify" placeholder="Re-type password"/>
+
+	<br/>
+	Favorite Color?
+	 #581845 <input type="radio" name="colors" />
+	 #900C3F <input type="radio" name="colors" />
+	 #C70039 <input type="radio" name="colors" />
+	 #FF5733 <input type="radio" name="colors" />
+	<br/>
+	Register <input type="submit" name="register" value= "Send Data"/>
+	<br/>
+	</form>
+	</div>
+	
+	<script type="text/javascript">
+		
+		function Validate(){
+			var x = document.vform.fullname.value;
+			if(x > 2){
+			document.getElementById('nameError').textContent = 'Must have more than 2 characters';
+				return false;
+			}else{
+				return true;
+			}
+		
+		Validate();
+	
+	</script>
+
+
+
+</body>
+
+
+</html>

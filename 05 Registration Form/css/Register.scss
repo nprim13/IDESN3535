@@ -1,0 +1,70 @@
+$font-stack: Gills Sans, Tahoma, Verdana, sans-serif;
+$bg-color: white;
+
+
+body{
+	font: 100% $font-stack;
+	background-color: $bg-color;
+	height: 100%;
+	box-sizing: border-box;
+	padding-left: .9375rem;
+	padding-right: .9375rem;
+	max-width: 75rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#navigation{
+	margin-left: -2.5rem;
+}
+
+#navilinks{
+	float: left;
+	display: inline-block;
+	margin-right: 2rem;
+	color: black;
+}
+
+div{
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+
+.second_row{
+	margin-top: 1rem;
+	position: absolute;
+	left:  50%;
+}
+
+.Large{
+	position: relative;
+	left: -60%;
+	width: 125%;
+	
+	
+}
+
+
+#registration_box{
+	background-color: rgba(82,130,177,0.56);
+	box-sizing: border-box;
+	padding: 1em;
+	text-align: center;
+	padding-top: 2rem;
+	line-height: 2em;
+	background-size: 30% contain;
+	width: 30%;
+	height: 60%;
+	position: absolute; top: 15rem;
+	left: 30rem; 
+	border-radius: 50px;
+	color: black;
+}
+
+
+
+#nameError{
+	color: yellow;
+}
